@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    margin: auto;
+    /*width: 97%;*/
+    padding: 32px 24px;
+    gap: 24px;
+    max-width: 1500px;
+}
+
+.edit-side {
+    display: flex;
+    flex-direction: column;
+    /*height: fit-content;!* permet de ne pas prendre toute la hauteur*!*/
+    /*flex-wrap: wrap; !* permet de passer à la ligne si besoin*!*/
+    gap: 24px;
+    /*max-width: 750px;!* permet de ne pas prendre toute la largeur*!*/
+    flex-grow: 1;
+    width: 30%;
+}
+
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
